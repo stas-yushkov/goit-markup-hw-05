@@ -10,3 +10,7 @@ TODO писать тут лучше
 
 webmasters 
 flaticon
+
+3d transform ссылки в таблицу смотреть
+
+pseudo after current bottom - 1px
