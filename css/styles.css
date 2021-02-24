@@ -441,8 +441,14 @@ header .logo-part {
   /* background-color: rgba(0, 0, 0, 0.06); */
 
   color: var(--white-color);
+
   /* color: teal; */
   opacity: 0;
+
+  transition-property: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 50ms;
 }
 
 .portfolio-item-link:hover .overlay-text,
