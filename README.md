@@ -14,3 +14,10 @@ flaticon
 3d transform ссылки в таблицу смотреть
 
 pseudo after current bottom - 1px
+
+overlay синий переделать как в конспекте
+
+whitespace. No wrap для номера телефона
+
+картинки в тумбах сделать через фит
+
