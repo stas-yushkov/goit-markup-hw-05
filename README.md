@@ -15,7 +15,7 @@ webmasters flaticon
 
 pseudo after current bottom - 1px
 
-overlay синий переделать как в конспекте
+overlay синий переделать как в конспекте ---делаю...
 
 whitespace. No wrap для номера телефона
 
