@@ -74,8 +74,9 @@ body {
 }
 
 .header {
-  /* margin-top: 5px; */
   position: relative;
+
+  /* margin-top: 5px; */
   /* background-color: greenyellow; */
   /* border-bottom: 1px solid var(--border-color); */
 }
@@ -406,6 +407,7 @@ img {
 .portfolio-item-link {
   display: block;
   color: var(--primary-color);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item-link:hover,
@@ -486,10 +488,10 @@ img {
   transition-delay: 50ms; */
 }
 
-.portfolio-item-link:hover .overlay,
+/* .portfolio-item-link:hover .overlay,
 .portfolio-item-link:focus .overlay {
   opacity: 1;
-}
+} */
 
 /* 
 .portfolio .card-thumb::after {
@@ -619,6 +621,7 @@ img {
   font-weight: 700;
   line-height: 1.15;
   letter-spacing: 0.03em;
+
   /* text-transform: uppercase; */
   color: var(--white-color);
 }
