@@ -10,7 +10,8 @@ TODO писать тут лучше
 
 webmasters flaticon
 
-3d transform ссылки в таблицу смотреть
+3d transform ссылки в таблицу смотреть (Положить ссылку на десандро (3д
+трансформы))
 
 pseudo after current bottom - 1px
 
