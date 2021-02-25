@@ -27,3 +27,5 @@ whitespace. No wrap для номера телефона
   <!-- если надо inline-block то юзай inline-flex -->
   <!-- фон чаще всего это "имадж, норепит, кавер, центер" -->
   <!-- bgcolor для секций через nth-child -->
+
+animate. Style библиотека анимаций css
