@@ -799,6 +799,10 @@ img {
   align-items: center;
   border-radius: 50%;
   fill: var(--social-link-color);
+
+  transition-property: fill, background-color;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
 }
 
 .social-link:hover,
