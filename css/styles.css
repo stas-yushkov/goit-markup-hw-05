@@ -826,6 +826,10 @@ img {
   border: 1px solid var(--social-link-color);
   border-radius: 4px;
   fill: var(--social-link-color);
+
+  transition-property: fill, border-color;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
 }
 
 .client-link:hover,
