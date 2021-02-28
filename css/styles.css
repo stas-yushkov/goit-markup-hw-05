@@ -182,8 +182,11 @@ img {
   /* width: 1600px; */
 
   max-width: 1600px;
+  min-height: 600px;
   margin-left: auto;
   margin-right: auto;
+
+  padding: 200px 0;
 
   /* position: absolute;
   width: 1600px;
@@ -211,7 +214,6 @@ img {
 }
 
 .hero-title {
-  margin-top: 200px;
   margin-bottom: 30px;
 
   font-weight: 900;
@@ -229,7 +231,6 @@ img {
 
   /* margin-left: auto; */
   /* margin-right: auto; */
-  margin-bottom: 200px;
   padding: 10px 32px;
   font-weight: 700;
   color: currentColor;
