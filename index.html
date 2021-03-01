@@ -79,7 +79,9 @@
         <h1 class="hero-title uppercase">
           Эффективные решения<br />для вашего бизнеса
         </h1>
-        <button class="button">Заказать услугу</button>
+        <button data-toggle-backdrop-sign class="button">
+          Заказать услугу
+        </button>
       </section>
 
       <!--features section-->
@@ -668,8 +670,15 @@
       </div>
     </footer>
 
-    <noscript>
+    <div data-backdrop-sign class="backdrop-sign is-hidden">
+      <div class="modal-sign">
+        <button data-toggle-backdrop-sign>закрыть</button>
+      </div>
+    </div>
+    <script src="./scripts/modal.js"></script>
+
+    <!-- <noscript>
       Для корректной работы страницы разрешите браузеру выполнение скриптов
-    </noscript>
+    </noscript> -->
   </body>
 </html>
