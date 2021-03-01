@@ -17,6 +17,7 @@
   --about-overlay-color: rgba(47, 48, 58, 0.8);
   --portfolio-overlay-color: rgba(33, 150, 243, 0.9);
   --modal-overlay-color: rgba(0, 0, 0, 0.2);
+  --close-border-color: rgba(0, 0, 0, 0.1);
 
   --footer-socials-bg-color: rgba(255, 255, 255, 0.1);
   --transparent-color: rgba(0, 0, 0, 0);
@@ -937,8 +938,13 @@ img {
 }
 
 .backdrop-sign.is-hidden {
+  visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+
+.backdrop-sign.is-hidden .modal-sign {
+  transform: translateX(-100vh);
 }
 
 .modal-sign {
@@ -950,4 +956,34 @@ img {
   width: 528px;
   height: 581px;
   background-color: var(--white-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+
+  transition-property: transform;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+}
+
+.close-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: var(--transparent-color);
+  color: var(--black-color);
+  border: 1px solid currentColor;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: var(--close-border-color);
+  cursor: pointer;
+
+  transition-property: color;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+}
+
+.close-button:hover,
+.close-button:focus {
+  outline: none;
+  color: var(--accent-color);
 }
